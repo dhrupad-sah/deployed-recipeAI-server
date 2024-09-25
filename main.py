@@ -1,10 +1,6 @@
 from fastapi import FastAPI, HTTPException, Body
 from fastapi.middleware.cors import CORSMiddleware
 import requests
-import json
-from dotenv import load_dotenv
-
-load_dotenv()
 
 app = FastAPI()
 
